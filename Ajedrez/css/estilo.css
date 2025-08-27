@@ -1,0 +1,45 @@
+body
+{
+	background-color: #d1d5d4;
+}
+div{
+	display: block;
+	float: left;
+}
+div.tablero
+{
+	width: 800px;
+	height: 600px;
+	margin-left: 250px;
+}
+
+div.tablero div div
+{
+	width: 100px;
+	height: 90px;
+	font-size: 70px;
+	text-align: center;
+}
+
+div.tablero div:nth-child(odd) div:nth-child(odd)
+{
+	background-color: white;
+	color:black;
+}
+div.tablero div:nth-child(odd) div:nth-child(even)
+{
+	background-color: black;
+	color: white;
+	border: white;
+}
+
+div.tablero div:nth-child(even) div:nth-child(even)
+{
+	background-color: white;
+	color:black;
+}
+div.tablero div:nth-child(even) div:nth-child(odd)
+{
+	background-color: black;
+	color:white;
+}
